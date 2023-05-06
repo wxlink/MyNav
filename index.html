@@ -46,7 +46,6 @@ width: 100%;
 </div>
     <P><center>
     <input type="submit" value="百度" id="baidu" button type="button" class="btn btn-primary" />
-    <input type="submit" value="谷歌" id="google" button type="button" class="btn btn-primary"/>
     <input type="submit" value="搜狗" id="sougou" button type="button" class="btn btn-primary"/>
     <input type="submit" value="京东" id="jd" button type="button" class="btn btn-primary" />
     <input type="submit" value="淘宝" id="taobao" button type="button" class="btn btn-primary" />
@@ -64,8 +63,6 @@ width: 100%;
     var sAddress=document.getElementsByTagName("form")[0];
     var sInfor=document.getElementById("search");
     var sBaidu=document.getElementById("baidu");
-    var sGoogle=document.getElementById("google");
-    var sGoogle1=document.getElementById("google1");
     var sjd=document.getElementById("jd");
     var stianmao=document.getElementById("tianmao");
     var staobao=document.getElementById("taobao");
@@ -81,13 +78,6 @@ width: 100%;
       sAddress.action="https://www.baidu.com/s";
       sInfor.name="wd";
     }
-    //Google
-    sGoogle.onclick=function(){
-      sAddress.action="http://www.google.com/search";
-      sInfor.name="q";
-    };
-    
-    //Google镜像  2017 年 2 月 11 日 更换
    
     $('#sougou').click(function() {
       var query = $('#search').val();
