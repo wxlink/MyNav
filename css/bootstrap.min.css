@@ -2135,25 +2135,25 @@ table td[class*=col-],table th[class*=col-] {
 	float:none
 }
 .table>tbody>tr.active>td,.table>tbody>tr.active>th,.table>tbody>tr>td.active,.table>tbody>tr>th.active,.table>tfoot>tr.active>td,.table>tfoot>tr.active>th,.table>tfoot>tr>td.active,.table>tfoot>tr>th.active,.table>thead>tr.active>td,.table>thead>tr.active>th,.table>thead>tr>td.active,.table>thead>tr>th.active {
-	background-color:#f5f5f5
+	background-color:rgba(45, 43, 43, 0.43)
 }
 .table-hover>tbody>tr.active:hover>td,.table-hover>tbody>tr.active:hover>th,.table-hover>tbody>tr:hover>.active,.table-hover>tbody>tr>td.active:hover,.table-hover>tbody>tr>th.active:hover {
 	background-color:#e8e8e8
 }
 .table>tbody>tr.success>td,.table>tbody>tr.success>th,.table>tbody>tr>td.success,.table>tbody>tr>th.success,.table>tfoot>tr.success>td,.table>tfoot>tr.success>th,.table>tfoot>tr>td.success,.table>tfoot>tr>th.success,.table>thead>tr.success>td,.table>thead>tr.success>th,.table>thead>tr>td.success,.table>thead>tr>th.success {
-	background-color:#dff0d8
+	background-color:rgba(45, 43, 43, 0.43)
 }
 .table-hover>tbody>tr.success:hover>td,.table-hover>tbody>tr.success:hover>th,.table-hover>tbody>tr:hover>.success,.table-hover>tbody>tr>td.success:hover,.table-hover>tbody>tr>th.success:hover {
 	background-color:#d0e9c6
 }
 .table>tbody>tr.info>td,.table>tbody>tr.info>th,.table>tbody>tr>td.info,.table>tbody>tr>th.info,.table>tfoot>tr.info>td,.table>tfoot>tr.info>th,.table>tfoot>tr>td.info,.table>tfoot>tr>th.info,.table>thead>tr.info>td,.table>thead>tr.info>th,.table>thead>tr>td.info,.table>thead>tr>th.info {
-	background-color:#d9edf7
+	background-color:rgba(45, 43, 43, 0.43)
 }
 .table-hover>tbody>tr.info:hover>td,.table-hover>tbody>tr.info:hover>th,.table-hover>tbody>tr:hover>.info,.table-hover>tbody>tr>td.info:hover,.table-hover>tbody>tr>th.info:hover {
 	background-color:#c4e3f3
 }
 .table>tbody>tr.warning>td,.table>tbody>tr.warning>th,.table>tbody>tr>td.warning,.table>tbody>tr>th.warning,.table>tfoot>tr.warning>td,.table>tfoot>tr.warning>th,.table>tfoot>tr>td.warning,.table>tfoot>tr>th.warning,.table>thead>tr.warning>td,.table>thead>tr.warning>th,.table>thead>tr>td.warning,.table>thead>tr>th.warning {
-	background-color:#fcf8e3
+	background-color:rgba(45, 43, 43, 0.43)
 }
 .table-hover>tbody>tr.warning:hover>td,.table-hover>tbody>tr.warning:hover>th,.table-hover>tbody>tr:hover>.warning,.table-hover>tbody>tr>td.warning:hover,.table-hover>tbody>tr>th.warning:hover {
 	background-color:#faf2cc
@@ -2256,11 +2256,12 @@ output {
 	padding: 6px 12px;
 	font-size: 15px;
 	line-height: 1.45;
-	color: #2c3f51;
+	color: #FFFFFF;
 	vertical-align: middle;
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-color: rgba(0, 0, 0, 0.05);
 	background-image: none;
-	border: 1px solid #dee6ed;
+	border: 2px solid #dee6ed;
 	border-radius: 4px;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -2621,7 +2622,7 @@ select[multiple].form-group-lg .form-control,textarea.form-group-lg .form-contro
 	white-space: nowrap;
 	padding: 6px 12px;
 	font-size: 16px;
-	line-height: 1.45;
+	line-height: 1.15;
 	border-radius: 0px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -2675,12 +2676,12 @@ select[multiple].form-group-lg .form-control,textarea.form-group-lg .form-contro
 }
 .btn-primary {
 	color: #F4F4F4;
-	background-color: #7AADE2;
+	background-color: rgba(122, 173, 226, 0.55);
 	border-color: rgba(0,128,255,0.05)
 }
 .btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary {
 	color:#fff;
-	background-color:#4B0082;
+	background-color:rgba(0,0,0,.5);
 	border-color:#204d74
 }
 .btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-primary {
@@ -3155,7 +3156,7 @@ tbody.collapse.in {
 	height: 43px;
     padding: 7px 16px;
     font-size: 20px;
-    line-height: 1.33;
+    line-height: 1.20;
     border-radius: 0px;
 }
 select.input-group-lg>.form-control,select.input-group-lg>.input-group-addon,select.input-group-lg>.input-group-btn>.btn {
@@ -3195,10 +3196,11 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	font-size:14px;
 	font-weight:400;
 	line-height:1;
-	color:#fff;
+	color:rgba(255,255,255,.85);
+	font-weight: bold;
 	text-align:center;
 	background-color:#eee;
-	border:1px solid #ccc;
+	border:2px solid #ccc;
 	border-radius:4px
 }
 .input-group-addon.input-sm {
@@ -3220,7 +3222,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 .input-group-addon:first-child {
 	border-right:0;
-	background-color: rgb(135, 185, 236);
+	background-color: rgba(122, 173, 226, 0.55);
 }
 .input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:first-child>.btn-group:not(:first-child)>.btn,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.dropdown-toggle {
 	border-top-left-radius:0;
@@ -4104,8 +4106,8 @@ a.badge:focus,a.badge:hover {
 	color:inherit
 }
 .jumbotron p {
-	margin-bottom:15px;
-	font-size:21px;
+	margin-bottom:10px;
+	font-size:16px;
 	font-weight:200
 }
 .jumbotron>hr {
