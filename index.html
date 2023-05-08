@@ -46,7 +46,6 @@ width: 100%;
 </div>
     <P><center>
     <input type="submit" value="百度一下" id="baidu" button type="button" class="btn btn-primary" />
-    <input type="submit" value="搜狗" id="sougou" button type="button" class="btn btn-primary"/>
     <input type="submit" value="京东" id="jd" button type="button" class="btn btn-primary" />
     <input type="submit" value="淘宝" id="taobao" button type="button" class="btn btn-primary" />
     <input type="submit" value="微信" id="weixin" button type="button" class="btn btn-primary" />
@@ -61,7 +60,6 @@ width: 100%;
   <script charset="gbk" src="assets/js/baidu.js"></script>
   <script>
     var sAddress=document.getElementsByTagName("form")[0];
-    var sInfor=document.getElementById("search");
     var sBaidu=document.getElementById("baidu");
     var sjd=document.getElementById("jd");
     var stianmao=document.getElementById("tianmao");
@@ -79,14 +77,6 @@ width: 100%;
       sInfor.name="wd";
     }
    
-    $('#sougou').click(function() {
-      var query = $('#search').val();
-      if ( query ) {        window.open("https://www.sogou.com/web?query=" + query , "_blank");
-        return false;
-      
-      };
-    });
-    
     
     //京东（已修复）在移动端访问会跳出两次窗口（已修复）
    
