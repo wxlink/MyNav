@@ -46,12 +46,12 @@ width: 100%;
 </div>
     <P><center>
     <input type="submit" value="百度一下" id="baidu" button type="button" class="btn btn-primary" />
+    <input type="submit" value="Bing" id="bing" button type="button" class="btn btn-primary" />
     <input type="submit" value="京东" id="jd" button type="button" class="btn btn-primary" />
     <input type="submit" value="淘宝" id="taobao" button type="button" class="btn btn-primary" />
     <input type="submit" value="微信" id="weixin" button type="button" class="btn btn-primary" />
     <input type="submit" value="知乎" id="zhihu" button type="button" class="btn btn-primary" />
     <input type="submit" value="微博" id="weibo" button type="button" class="btn btn-primary"/>
-    <input type="submit" value="豆瓣" id="douban" button type="button" class="btn btn-primary"/>
     <input type="submit" value="网盘" id="quzhuanpan" button type="button" class="btn btn-success"/>
     <input type="submit" value="地图" id="ditu" button type="button" class="btn btn-primary"/>
     </center></P>
@@ -62,6 +62,7 @@ width: 100%;
     var sAddress=document.getElementsByTagName("form")[0];
     var sInfor=document.getElementById("search");
     var sBaidu=document.getElementById("baidu");
+    var sbing=document.getElementById("bing");
     var sjd=document.getElementById("jd");
     var stianmao=document.getElementById("tianmao");
     var staobao=document.getElementById("taobao");
@@ -78,7 +79,16 @@ width: 100%;
       sInfor.name="wd";
     }
    
-    
+     //Bing
+   
+    $('#bing').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("https://cn.bing.com/search?q=&keyword=" + query, "_blank");
+        return false;
+      };
+    });
+                      
     //京东（已修复）在移动端访问会跳出两次窗口（已修复）
    
     $('#jd').click(function() {
@@ -134,11 +144,11 @@ width: 100%;
     });
 
     //豆瓣
-    sdouban.onclick=function(){
-      sAddress.action="https://www.douban.com/search?";
-      sInfor.name="q";
+    //sdouban.onclick=function(){
+    //  sAddress.action="https://www.douban.com/search?";
+    //  sInfor.name="q";
       //sInfor.type="question";
-    }
+    //}
         
      //改用网易云音乐检索 移动端检索出现异常
      
