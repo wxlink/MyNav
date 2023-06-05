@@ -81,13 +81,11 @@ width: 100%;
    
      //Bing
    
-    $('#bing').click(function() {
-      var query = $('#search').val();
-      if ( query ) {
-        window.open("https://cn.bing.com/search?q=&keyword=" + query, "_blank");
-        return false;
-      };
-    });
+    sbing.onclick=function(){
+      sAddress.action="https://cn.bing.com/search";
+      sInfor.name="q";
+      sInfor.type="question";
+    }
                       
     //京东（已修复）在移动端访问会跳出两次窗口（已修复）
    
