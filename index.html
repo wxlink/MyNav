@@ -1,15 +1,40 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-<title>MyNav</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>简洁导航</title>
 <link rel="shortcut icon" href="favicon.ico">
 <meta name="Keywords" content=""/>
 <meta name="Description" content="巨海纳百川，麟阁多才贤，致力为实现开放包容的互联网努力！"/>
-<meta http-equiv="refresh" content="0;url= https://www.bidianer.com/iiii ">
-</head>
-<body>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+    }
 
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    var iframeSrc = isMobile? 'http://m.bidianer.com/iiii' : 'https://www.bidianer.com/iiii';
+    var iframe = document.createElement('iframe');
+    iframe.src = iframeSrc;
+    document.body.appendChild(iframe);
+  </script>
 </body>
+
 </html>
