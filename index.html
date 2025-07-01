@@ -30,14 +30,14 @@
 <body>
   <script>
     // 检查浏览器是否支持Service Workers
-    if ('serviceWorker' in navigator) {
-      // 注册Service Worker
-      navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-        console.log('Service Worker registered with scope:', registration.scope);
-      }).catch(function(error) {
-        console.log('Service Worker registration failed:', error);
-      });
-    }
+ //   if ('serviceWorker' in navigator) {
+//      // 注册Service Worker
+//      navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+//        console.log('Service Worker registered with scope:', registration.scope);
+//      }).catch(function(error) {
+//        console.log('Service Worker registration failed:', error);
+//      });
+//    }
 
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     var iframeSrc = isMobile ? 'http://m.bidianer.com/iiii' : 'https://www.bidianer.com/iiii';
