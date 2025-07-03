@@ -1,11 +1,23 @@
-bidianer.com## el-alert.el-alert--warning.is-light
-bidianer.com## wx-login-alert.panel
-bidianer.com## guest-function-guide.card-opacity.box
-bidianer.com## panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
-bidianer.com## panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
-bidianer.com## el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
-bidianer.com## flex.items-center.login
-bidianer.com## action.flex.single
-bidianer.com## web-header
-bidianer.com## category-operation.horizontal
-bidianer.com## right-icon.text-lighter.el-icon-more
+bidianer.com##.el-alert.el-alert--warning.is-light
+bidianer.com##.wx-login-alert.panel
+bidianer.com##.guest-function-guide.card-opacity.box
+bidianer.com##.panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
+bidianer.com##.panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
+bidianer.com##.el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
+bidianer.com##.flex.items-center.login
+bidianer.com##.action.flex.single
+bidianer.com##.web-header
+bidianer.com##.category-operation.horizontal
+bidianer.com##.right-icon.text-lighter.el-icon-more
+
+s.qqxms.com##.el-alert.el-alert--warning.is-light
+s.qqxms.com##.wx-login-alert.panel
+s.qqxms.com##.guest-function-guide.card-opacity.box
+s.qqxms.com##.panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
+s.qqxms.com##.panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
+s.qqxms.com##.el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
+s.qqxms.com##.flex.items-center.login
+s.qqxms.com##.action.flex.single
+s.qqxms.com##.web-header
+s.qqxms.com##.category-operation.horizontal
+s.qqxms.com##.right-icon.text-lighter.el-icon-more
