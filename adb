@@ -1,0 +1,11 @@
+bidianer.com##.el-alert.el-alert--warning.is-light
+bidianer.com##.wx-login-alert.panel
+bidianer.com##.guest-function-guide.card-opacity.box
+bidianer.com##.panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
+bidianer.com##.panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
+bidianer.com##.el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
+bidianer.com##.flex.items-center.login
+bidianer.com##.action.flex.single
+bidianer.com##.web-header
+bidianer.com##.category-operation.horizontal
+bidianer.com##.right-icon.text-lighter.el-icon-more
