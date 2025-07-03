@@ -1,23 +1,23 @@
-bidianer.com##.el-alert.el-alert--warning.is-light
-bidianer.com##.wx-login-alert.panel
-bidianer.com##.guest-function-guide.card-opacity.box
-bidianer.com##.panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
-bidianer.com##.panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
-bidianer.com##.el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
-bidianer.com##.flex.items-center.login
-bidianer.com##.action.flex.single
-bidianer.com##.web-header
-bidianer.com##.category-operation.horizontal
-bidianer.com##.right-icon.text-lighter.el-icon-more
+||bidianer.com^$elemhide ##.el-alert.el-alert--warning.is-light
+||bidianer.com^$elemhide ##.wx-login-alert.panel
+||bidianer.com^$elemhide ##.guest-function-guide.card-opacity.box
+||bidianer.com^$elemhide ##.panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
+||bidianer.com^$elemhide ##.panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
+||bidianer.com^$elemhide ##.el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
+||bidianer.com^$elemhide ##.flex.items-center.login
+||bidianer.com^$elemhide ##.action.flex.single
+||bidianer.com^$elemhide ##.web-header
+||bidianer.com^$elemhide ##.category-operation.horizontal
+||bidianer.com^$elemhide ##.right-icon.text-lighter.el-icon-more
 
-s.qqxms.com##.el-alert.el-alert--warning.is-light
-s.qqxms.com##.wx-login-alert.panel
-s.qqxms.com##.guest-function-guide.card-opacity.box
-s.qqxms.com##.panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
-s.qqxms.com##.panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
-s.qqxms.com##.el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
-s.qqxms.com##.flex.items-center.login
-s.qqxms.com##.action.flex.single
-s.qqxms.com##.web-header
-s.qqxms.com##.category-operation.horizontal
-s.qqxms.com##.right-icon.text-lighter.el-icon-more
+||s.qqxms.com^$elemhide ##.el-alert.el-alert--warning.is-light
+||s.qqxms.com^$elemhide ##.wx-login-alert.panel
+||s.qqxms.com^$elemhide ##.guest-function-guide.card-opacity.box
+||s.qqxms.com^$elemhide ##.panel.card-opacity.fixed-slider-button.el-tooltip.item.focusing
+||s.qqxms.com^$elemhide ##.panel.card-opacity.fixed-slider-button.el-dropdown-selfdefine.focusing
+||s.qqxms.com^$elemhide ##.el-button.el-tooltip.go-home-btn.el-button--default.el-button--mini.focusing
+||s.qqxms.com^$elemhide ##.flex.items-center.login
+||s.qqxms.com^$elemhide ##.action.flex.single
+||s.qqxms.com^$elemhide ##.web-header
+||s.qqxms.com^$elemhide ##.category-operation.horizontal
+||s.qqxms.com^$elemhide ##.right-icon.text-lighter.el-icon-more
